@@ -128,6 +128,14 @@ alias ssh='kitty +kitten ssh'
 alias pkmn='pokemon-colorscripts -r'
 alias paru='paru --color always'
 alias pacman='pacman --color always'
+alias chip='mpc clear && mpc load chipi-chapa && mpc consume on && mpc next && mpc consume off'
+alias mpcs='mpc stop'
+alias mpcl='mpc load'
+alias mpcp='mpc play'
+alias mpcsh='mpc shuffle'
+alias lolfetch='fastfetch | lolcat'
+alias paru='paru -Syu'
+alias sl='sl -e'
 
 if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
 	startx
